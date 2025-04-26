@@ -8,11 +8,9 @@ usermod -aG sudo $USER
 su - $USER
 
 
-echo "Now run script for creating SSH key on your machine
-
-sudo wget -O - https://raw.githubusercontent.com/kaziamov/vpn-config/main/src/scripts/generate-ssh.sh | sudo bash -s $1 $2 $3
-
-for connect to VPN server"
+echo "Now run script for creating SSH key on your machine"
+echo "sudo wget -O - https://raw.githubusercontent.com/kaziamov/vpn-config/main/src/scripts/generate-ssh.sh | sudo bash -s $1 $2 $3"
+echo "for connect to VPN server"
 
 echo "
 PermitRootLogin no
