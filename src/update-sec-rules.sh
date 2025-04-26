@@ -8,8 +8,8 @@ usermod -aG sudo $USER
 su - $USER
 
 
-echo "Now run script for creating SSH key on your machine \n"
-echo "sudo wget -O - https://raw.githubusercontent.com/kaziamov/vpn-config/main/src/scripts/generate-ssh.sh | sudo bash -s <PORT> <USER> <HOST>"
+echo "WARNING: run script for creating SSH key on your machine \n"
+echo "   >> sudo wget -O - https://raw.githubusercontent.com/kaziamov/vpn-config/main/src/scripts/generate-ssh.sh | sudo bash -s <PORT> <USER> <HOST>"
 echo "\n for connect to VPN server"
 
 echo "
