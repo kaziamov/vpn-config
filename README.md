@@ -20,3 +20,11 @@ sudo sh run-wireguard.sh 10.123.456.78
 ```
 
 Thats all, enjoy!
+
+## ufw
+If you use ufw (firewall):
+
+```bash
+sudo ufw allow 51821/tcp
+sudo ufw allow 51820/udp
+```
